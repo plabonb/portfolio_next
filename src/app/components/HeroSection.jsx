@@ -31,7 +31,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                        Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veritatis Explicabo Eius Inventore Reprehenderit Alias Eos Facilis, Ipsa Est Asperiores Repellendus!
+                    My name is Plabon Biswas. I'm a front-end developer based in Dhaka, Bangladesh. I have developed many types of front-ends application.
                     </p>
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
