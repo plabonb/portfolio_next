@@ -16,42 +16,43 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
+          </h1>
+          <h2 className="text-white mb-4 text-4xl sm:text-5xl lg:text-5xl lg:leading-normal font-extrabold">
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Plabon",
                 1000,
-                "Web Developer",
+                "Font-End Developer",
                 1000,
                 "Mobile Developer",
                 1000,
-                "UI/UX Designer",
+                "Web Developer",
                 1000,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
-          </h1>
+          </h2>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+            My name is Plabon Biswas. I&apos;m a front-end developer based in Dhaka, Bangladesh. I have developed many types of front-ends application.
           </p>
           <div>
             <Link
-              href="/contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              href="#contact"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-dark-200 text-white"
             >
               Hire Me
             </Link>
             <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              href="https://flowcv.com/resume/ts65wvktec"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover:bg-white hover:text-black rounded-full px-5 py-2">
                 Download CV
               </span>
             </Link>
@@ -65,7 +66,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/pb.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
