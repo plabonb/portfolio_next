@@ -32,33 +32,7 @@ const projectsData = [
         gitUrl: "/",
         previewUrl: "/",
     },
-    {
-        id: 4,
-        title: "React Portfolio Website",
-        description: "Project 4 description",
-        image: "/images/projects/4.jpg",
-        tag: ["All", "Mobile"],
-        gitUrl: "/",
-        previewUrl: "/",
-    },
-    {
-        id: 5,
-        title: "React Portfolio Website",
-        description: "Authentication and CRUD operations",
-        image: "/images/projects/5.jpg",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
-    },
-    {
-        id: 6,
-        title: "React Portfolio Website",
-        description: "Project 5 description",
-        image: "/images/projects/6.jpg",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
-    },
+    
 ];
 
 const ProjectsSection = () => {

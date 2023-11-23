@@ -15,16 +15,16 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
           </h1>
-          <h2 className="text-white mb-4 text-4xl sm:text-5xl lg:text-5xl lg:leading-normal font-extrabold">
+          <h2 className="text-white mb-3 text-3xl sm:text-5xl lg:text-5xl lg:leading-normal font-extrabold">
             <TypeAnimation
               sequence={[
-                "Plabon",
+                "Plabon Biswas",
                 1000,
                 "Font-End Developer",
                 1000,
@@ -44,7 +44,7 @@ const HeroSection = () => {
           <div>
             <Link
               href="#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-dark-200 text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-slate-800 text-white"
             >
               Hire Me
             </Link>
