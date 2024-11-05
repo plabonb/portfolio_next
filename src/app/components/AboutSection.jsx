@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Link from "next/link";
 
 const TAB_DATA = [
     {
@@ -28,14 +29,15 @@ const TAB_DATA = [
                 <li>2019-23</li>
             </ul>
         )
-    },
+    }
+    ,
     {
         title: 'Certifications',
         id: 'certifications',
         content: (
             <ul>
-                <li>Ethical Hacking</li>
-                <li>MSB-Academy</li>
+                <li>Diploma in Computer Science</li>
+                <li><a href="http://www.aitvet.edu.bd/" target="_blank">AITVET</a></li>
             </ul>
         )
     }

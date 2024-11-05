@@ -16,7 +16,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-zinc-400">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -44,15 +44,15 @@ const HeroSection = () => {
           <div>
             <Link
               href="#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-slate-800 text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-lime-500 to-zinc-400 hover:bg-slate-800 text-white"
             >
               Hire Me
             </Link>
             <Link
               href="https://flowcv.com/resume/ts65wvktec"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-slate-800 text-white mt-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-lime-500 to-zinc-400 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-white hover:text-black rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover:bg-green-700 hover:text-black rounded-full px-5 py-2">
                 Download CV
               </span>
             </Link>
